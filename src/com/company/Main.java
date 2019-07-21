@@ -18,10 +18,10 @@ public class Main {
         int Y = 2;
         int Z = 3;
 
-        if (number == 1) System.out.println("Данное значение имеется в константах");
-        else if (number == 2) System.out.println("Данное значение имеется в константах");
-        else if (number == 3) System.out.println("Данное значение имеется в константах");
-        else System.out.println("Такой константы нет!");
+        if (number == 1 | number == 2 | number == 3);
+        System.out.println("Данное значение имеется в константах");
+
+         else System.out.println("Такой константы нет!");
 
     }
 }
